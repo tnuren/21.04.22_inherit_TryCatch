@@ -35,7 +35,7 @@ public class ProductService {
 		}
 		return list;
 	}
-	// 상품 삭제
+	// 상품삭제
 	List<ProductDTO> delet(List<ProductDTO> list) {
 		System.out.print("삭제할 상품번호를 입력하세요 : ");
 		number = scan.nextInt();
